@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('text');
             $table->timestamps();
+            //教材80でLaravel tinkerを実施　ターミナルで対話形式でDBを操作したり、閲覧したりできる
         });
     }
 
