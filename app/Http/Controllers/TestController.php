@@ -27,6 +27,7 @@ class TestController extends Controller
         dd($values, $conunt, $firest, $whereBBB, $queryBilder);
 
         return view('tests.test', compact('values'));
+        // 👆のクラスはFacadesの機能を使っているのを覚えておく！
     }
 }
 
